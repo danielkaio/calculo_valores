@@ -1,5 +1,5 @@
 
-let enviar = document.querySelector('.enviar')
+let enviar = document.querySelector('.form')
 let res
 
 enviar.addEventListener('submit',(event)=>{
@@ -12,7 +12,7 @@ enviar.addEventListener('submit',(event)=>{
     let n2 = document.querySelector('.n2').value
     let resultado = parseInt(n1) + parseInt(n2)
     
-     res = document.querySelector('.res').innerHTML = resultado
+     res = document.querySelector('.res').innerHTML = `a soma é ${resultado}` 
     
     
 

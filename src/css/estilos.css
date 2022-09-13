@@ -1,0 +1,44 @@
+body {
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+
+}
+
+
+.form,
+.n1,
+.n2 {
+    display: block;
+    padding: 5px;
+    margin: 5px;
+}
+
+label{ 
+    color: black;
+    
+    
+}
+
+.enviar,
+.limpar {
+    padding: 5px;
+    margin: 10px;
+    border: none;
+    color: whitesmoke;
+
+
+}
+
+.enviar {
+    background-color: green;
+}
+
+.limpar {
+    background-color: tomato;
+}
+
+.enviar,
+.limpar:hover {
+
+    cursor: pointer
+}
